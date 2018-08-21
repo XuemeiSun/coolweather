@@ -13,19 +13,19 @@ public class Suggestion {
     @SerializedName("cw")
     public CarWash carwash;
 
-    public Sports sports;
+    public Sport sport;
 
-    private class Comfort {
+    public class Comfort {
         @SerializedName("txt")
         public String info;
     }
 
-    private class CarWash {
+    public class CarWash {
         @SerializedName("txt")
         public String info;
     }
 
-    private class Sports {
+    public class Sport {
         @SerializedName("txt")
         public String info;
     }
